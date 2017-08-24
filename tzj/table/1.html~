@@ -1,0 +1,33 @@
+<html>
+	<head></head>
+	<body style="font-size:20px">
+		<p style="text-align:center">let's have an example</p>
+		<table align="center" border="1" style="border-collapse:collapse">
+			<caption>Liuyue</caption>
+			<thead >
+				<tr style="text-align:center">
+					<th>similar to below</th>
+				</tr>
+			</thead>
+			<tr>
+			<td style="text-align:center" colspan="2">first row and first colum</td>
+			<td>first row and second colum</td>
+			<td>first row and third colum</td>
+			</tr>
+
+			<tr>
+			<td rowspan="2">second row and first colum</td>
+			<td>second row and second colum</td>
+			<td>second row and third colum</td>
+			</tr>
+
+			<tr>
+			<td>third row and first colum</td>
+			<td>third row and second colum</td>
+			<td>third row and third colum</td>
+			</tr>
+		</table>
+
+
+	</body>
+</html>
