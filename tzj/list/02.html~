@@ -1,0 +1,34 @@
+<html>
+	<head></head>
+	<body>
+		<ol start="2">
+		<li>hadoop</li>
+		<li>linux</li>
+		<li>c</li>
+		</ol>
+
+		<ol type="a">
+		<li>hadoop</li>
+		<li>linux</li>
+		<li>c</li>
+		</ol>
+
+		<ol type="A">
+		<li>hadoop</li>
+		<li>linux</li>
+		<li>c</li>
+		</ol>
+
+		<ol type="i">
+		<li>hadoop</li>
+		<li>linux</li>
+		<li>c</li>
+		</ol>
+
+		<ol type="I">
+		<li>hadoop</li>
+		<li>linux</li>
+		<li>c</li>
+		</ol>
+	</body>
+</html>
