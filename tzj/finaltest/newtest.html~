@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<style>
+		        #container{width:1300px;margin:0 auto;}
+		        #header{background-color: darkslategray;height: 130px;font-size: 16px;}
+			#paragraph {background-color: lightseagreen ;height: 550px;text-align:center;font-size: 30px}
+			#main{height:350px;overfloat:hidden;}	
+		        #leftside{height:350px;width:310px;float: left;text-align:center}
+		        #middle1{height:350px;width:340px;float: left;text-align:center}
+		        #middle2{height:350px;width:340px;float: left;text-align:center}
+		        #rightside{height:350px;width:310px;float: left;text-align:center}
+		        #footer1{background-color: powderblue;height: 600px;clear:both;text-align:center;}
+		        #footer2{background-color: lightslategrey;height: 130px;font-size: 16px;}
+		</style>
+	</head>
+
+<body>
+<div id="container">
+	<div id="header">
+		<br/>
+		<h1 style="text-align:center;color:white;" >Colorful Shi yan Lou</h1>
+		<a href="#con">Contant us</a>
+	</div>
+	<div id="paragraph">
+		<br/>
+		<img src="profile.png"/>
+		<h1>we are engineers</h1>
+		<h3>we are young</h3>
+	</div>
+	<div id="main" style="border-top:1px solid lightseagreen; margin-top:10px;">
+		<div id="leftside">
+			<h1 style="color: lightslategray">Working</h1>
+			<img src="./cabin.png" width="300" height="260"/>
+		</div>
+		<div id="middle1">
+        		<h1 style="color: lightslategray">Eating</h1>
+       			<img src="cake.png" height="260" width="300">
+		</div>
+		<div id="middle2">
+        		<h1 style="color: lightslategray">Playing</h1>
+        		<img src="./game.png" height="260" width="300">
+		</div>
+		<div id="rightside">
+        		<h1 style="color: lightslategray">Sleeping</h1>
+        		<img src="circus.png" height="260" width="300">
+		</div>
+	</div>
+	<div id="footer1">
+        <br/>
+            	<a name="con">
+                <h1 style="color: lightslategray;">let's learn with us<br/>
+		good good study, day day up
+        	</h1>
+        	</a>
+		<div id="contact" style="background-color: orange;width: 400px;height: 400px; margin:0 auto;">
+			<img src="user.png" style="text-align:center"/>
+			<form action="MAILTO:support@shiyanlou.com" method="post" enctype="text/plain">
+				
+                		<h3>Send emali to shiyanlou</h3>
+				your name:<br/>
+				<input type="text" name="name" size="20"><br/>
+				your email:<br/>
+				<input type="text" name="email" size="20"><br/>
+				your tel:<br/>
+				<input type="text" name="tel" size="20"><br/>
+
+				<input type="submit" name="send">
+				<input type="reset" name="reset">				
+			</form>
+		</div>
+	</div>
+	<div id="footer2">
+
+	</div>
+</div>
+</body>
+</html>
