@@ -1,0 +1,68 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:cadetblue;
+}
+
+#head{
+    line-height: 120px;
+    height: 200px;
+    vertical-align: middle;
+}
+
+.headtitle{
+    color: snow;
+    width: 200px;
+    text-align: center;
+    float: left;
+}
+
+/*
+#head>div{
+    display: inline-block;
+}
+*/
+.headlead{
+    float: left;
+}
+
+li{
+    padding:2px;
+    display: inline;
+}
+
+a:link,a:visited{
+    color: snow;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
+
+.headform form{
+    float: right;
+    margin-right: 50px;
+}
+
+form input{
+    height: 20px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.headimage{
+    float: right;
+    margin:30px 5px 0 0;
+}
+
+.headimage img{
+    width: 60px;
+    height: 60px;
+}
