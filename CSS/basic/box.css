@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.top{
+    height: 100px;
+    width: 100%;
+    background-color: steelblue;
+    text-align: left;
+}
+.topcenter{
+    height: 100px;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+.middle{
+    width: 75%;
+    height: 250px;
+    background-color: gray;
+    margin: 8px auto;
+}
+.middle1{
+    height: 150px;
+    background-color: aquamarine;
+}
+.middle2{
+    height: 50px;
+    background-color: greenyellow;
+    margin: 8px 0;
+}
+.bottom{
+    width: 75%;
+    height:100px;
+    background-color: black;
+    margin:0 auto;
+}
