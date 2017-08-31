@@ -1,0 +1,21 @@
+.position1{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+/*    position:static;*/
+/*    position: relative;*/
+    left: 60px;
+    position: absolute;
+    z-index: 2;
+    
+}
+
+.position2{
+    width:100px;
+    height: 100px;
+    background-color: aquamarine;
+    left: 10px;
+    top: 10px;
+    position: relative;
+    z-index: 1;
+}

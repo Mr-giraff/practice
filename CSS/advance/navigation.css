@@ -1,0 +1,21 @@
+ul{
+    list-style: none;
+    width: 300px;
+    text-align: center;
+}
+
+li{
+    display: inline;
+}
+
+a:link,a:visited{
+    text-decoration: none;
+    background-color: lightgray;
+/*    display: block;*/
+}
+
+a:hover,a:active{
+    cursor:pointer;
+    background-color: cadetblue;
+}
+    
