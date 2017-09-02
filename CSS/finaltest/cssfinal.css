@@ -5,13 +5,21 @@
 }
 
 body{
+    background-color:snow;
+}
+
+#container{
     background-color:cadetblue;
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
 }
 
 #head{
-    line-height: 120px;
-    height: 200px;
-    vertical-align: middle;
+    line-height: 100px;
+    height: 100px;
+/*    vertical-align: middle;*/
+    background-color: darkcyan;
 }
 
 .headtitle{
@@ -65,4 +73,51 @@ form input{
 .headimage img{
     width: 60px;
     height: 60px;
+}
+
+#mainbody{
+    height: 250px;
+    color: azure;
+/*    background-color: aqua;*/
+/*    margin-top: 50px;*/
+}
+
+.mbytitle{
+/*    width: 80%;*/
+    height: 80px;
+/*    background-color: black;*/
+/*    margin-top: 80px;*/
+}
+/*
+.sub1{
+    width: 80%;
+    height: 50px;
+    background-color: snow;
+    margin-top: 30px;
+}
+*/
+.mbytitle>h3{
+    margin: 5px 0;
+}
+.mbytitle>p{
+    margin: 15px;
+}
+
+hr{
+    padding: 0px;
+    margin: 0 10px;
+    
+}
+
+.image4{
+
+    border: 1px solid snow;
+    text-align: center;
+    margin: 10px;
+    float: left;
+}
+
+img{
+    width: 179px;
+    height: 179px;
 }
