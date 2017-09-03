@@ -76,7 +76,7 @@ form input{
 }
 
 #mainbody{
-    height: 250px;
+    height: 450px;
     color: azure;
 /*    background-color: aqua;*/
 /*    margin-top: 50px;*/
@@ -109,6 +109,9 @@ hr{
     
 }
 
+.mbyimage{
+    overflow: hidden;
+}
 .image4{
 
     border: 1px solid snow;
@@ -120,4 +123,13 @@ hr{
 img{
     width: 179px;
     height: 179px;
+}
+
+#footer{
+    width: 90%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: lightgrey;
+    margin: 0 auto;
 }
